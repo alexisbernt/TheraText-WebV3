@@ -68,11 +68,11 @@ main {
 }
 
 .card {
-  background-color: #f8f8f8;
-  border: 1px solid #e2e2e2;
+  background-color: #d4ecff; /* light blue */
+  color: #111;
+  padding: 2rem 1.5rem;
   border-radius: 12px;
   width: 280px;
-  padding: 2rem 1.5rem;
   text-align: center;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
   transition: transform 0.2s ease;
@@ -84,7 +84,11 @@ main {
 
 .card .icon {
   font-size: 2rem;
-  color: #4da6ff;
+  color: white;
+  background-color: #4da6ff;
+  padding: 0.6rem;
+  border-radius: 50%;
+  display: inline-block;
   margin-bottom: 1rem;
 }
 
