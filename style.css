@@ -98,17 +98,15 @@ main {
 }
 
 .about-card {
-  background-color: #d4ecff;
-  color: #111;
-  padding: 2rem;
-  border-radius: 12px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: center;
+  border: 2px solid #d4ecff;
+  border-radius: 12px;
+  background-color: white;
+  padding: 1.5rem;
   margin-top: 3rem;
   gap: 2rem;
+  align-items: center;
 }
 
 .about-card-left,
@@ -119,21 +117,26 @@ main {
 
 .about-card-left {
   display: flex;
-  flex-direction: column;
+  justify-content: center;
   align-items: center;
-  text-align: center;
 }
 
 .about-card-left img {
-  max-width: 100%;
-  height: auto;
+  max-height: 200px;
+  width: auto;
   border-radius: 10px;
-  margin-bottom: 1rem;
 }
 
-.about-card-left h2 {
-  margin: 0;
-  font-size: 1.6rem;
+.about-card-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.about-card-right h2 {
+  margin-top: 0;
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
 }
 
 .about-card-right p {
