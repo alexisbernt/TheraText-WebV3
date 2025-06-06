@@ -100,9 +100,9 @@ main {
 .about-card {
   display: flex;
   flex-wrap: wrap;
-  border: 2px solid #d4ecff;
+  border: 2px solid white;
   border-radius: 12px;
-  background-color: white;
+  background-color: #d4ecff;
   padding: 1.5rem;
   margin-top: 3rem;
   gap: 2rem;
